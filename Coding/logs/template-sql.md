@@ -12,12 +12,12 @@
 ---
 
 ## 💡 Key Concepts of the Day
-|    Concept     | Chinese meaning |          English meaning        |
-|----------------|-----------------|---------------------------------|
-| SELECT         |-----------------| Used to select specific columns |
-| WHERE          |-----------------| Filters rows based on conditions|
-| ORDER BY       |-----------------| Sorts the result set            |
-| DISTINCT       |-----------------| Removes duplicate records       |
+| Concept  | Chinese meaning   | English meaning                  |
+| -------- | ----------------- | -------------------------------- |
+| SELECT   | ----------------- | Used to select specific columns  |
+| WHERE    | ----------------- | Filters rows based on conditions |
+| ORDER BY | ----------------- | Sorts the result set             |
+| DISTINCT | ----------------- | Removes duplicate records        |
 
 ---
 
@@ -32,3 +32,9 @@ SELECT * FROM users WHERE age > 25;
 
 -- 查询去重后的城市列表，并按字母排序
 SELECT DISTINCT city FROM users ORDER BY city ASC;
+```
+
+## 🎯 Plan for next step
+- CS50’s Introduction to Databases with SQL
+  - WEEK 0 Problem Set 0
+- Review 
